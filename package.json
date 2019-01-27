@@ -1,0 +1,21 @@
+{
+  "name": "com.sp.qrcode",
+  "version": "0.0.1",
+  "displayName": "QRCodeReader",
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.1.4",
+    "cordova-browser": "^5.0.4",
+    "cordova-ios": "^4.5.5",
+    "cordova-plugin-whitelist": "1"
+  }
+}
