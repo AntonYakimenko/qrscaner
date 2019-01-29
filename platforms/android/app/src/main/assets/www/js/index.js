@@ -105,7 +105,8 @@
                          }
 
 
-                         function sortirovatSmen() {
+
+                         function SortingAsc() {
                                  for (var i = 0, endI = data.length - 1; i < endI; i++) {
                                      for (var j = 0, endJ = endI - i; j < endJ; j++) {
                                           if (data[j][2] > data[j + 1][2]) {
@@ -120,7 +121,7 @@
                           localStorage.setItem("LocalData", JSON.stringify(data));
                           location.reload()
                          }
-                         function sortirovatSbol() {
+                         function SortingDesc() {
                                  for (var i = 0, endI = data.length - 1; i < endI; i++) {
                                      for (var j = 0, endJ = endI - i; j < endJ; j++) {
                                           if (data[j][2] < data[j + 1][2]) {
